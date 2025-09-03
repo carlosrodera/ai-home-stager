@@ -1,0 +1,39 @@
+{
+  "name": "ai-home-stager",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered home staging application using Google Gemini's revolutionary image editing model",
+  "keywords": ["AI", "home-staging", "real-estate", "interior-design", "gemini", "google-ai"],
+  "author": "Carlos Rodera",
+  "license": "MIT",
+  "homepage": "https://github.com/carlosrodera/ai-home-stager#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosrodera/ai-home-stager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosrodera/ai-home-stager/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "@google/genai": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^7.1.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
